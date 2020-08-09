@@ -1,0 +1,72 @@
+body {
+  background-color: teal;
+  font-family: sans-serif;
+}
+#app {
+	margin-left: 100px;
+}
+#timers{
+	margin-top: 60px;
+}
+.container{
+    height: 150px;
+	width: 100%;
+	padding-top: 2rem;
+}
+#minutes {
+	padding: 0.5rem;
+	margin: 1rem;
+}
+#seconds {
+	padding: 0.5rem;
+	margin: 1rem;
+}
+#inputArea {
+	font-size: 1.5rem;
+}
+#inputArea2 {
+	font-size: 1.5rem;
+}
+#timeUp {
+	font-size: 72px;
+	text-align: center;
+	margin: 0px auto;
+	display: inline-block;
+	margin-right: 7rem;
+}
+#timeDown {
+	font-size: 72px;
+	text-align: center;
+	margin: 0px auto;
+	display: inline-block;
+}
+#p2 {
+	margin-left: 5.5rem;
+}
+#start, #reset, #p1, #p2, #lap1, #lap2 {
+	width: 80px;
+	height:40px;
+	background-color:#a8a2ce;
+	border:2px solid #778899;
+}
+#start:hover, #reset:hover, #p1:hover, #p2:hover, #lap1:hover, #lap2:hover  {
+	background-color:#FFD700;
+	border:2px solid;
+}
+.results {
+	border-color: lime;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+.lists-display {
+	display: flex;
+}
+  .results2 {
+	display: inline-block;
+	margin-left: 13rem;
+  }
